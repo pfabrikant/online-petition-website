@@ -1,0 +1,16 @@
+<div class="reg_img animated slideInRight">
+<img src="https://www.sciencenews.org/sites/default/files/styles/growth_curve_main/public/2017/05/main/blogposts/051017_LS_screentime_main_FREE.jpg?itok=7jQEL_Du" alt="baby with phone">
+</div>
+
+<div class="warning {{#if warning}}on {{/if}}">
+    <p>There was some trouble with either your username or password. Please try again! </p>
+</div>
+<form class="login" method="post">
+    <input type="email" name="email" data-lpignore=true placeholder="Email Address">
+    <input type="password" name="password" data-lpignore=true placeholder="Password">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button class= "animated pulse" type="submit" name="button">Log in</button>
+</form>
+<div class="login">
+<a href="/register">No account yet? Click here to register!</a>
+</div>

@@ -1,0 +1,33 @@
+<div class="update">
+    <div>
+        <h3> Hello {{first}}! Here you can edit your profile!</h3>
+        <div class="warning {{#if warning}}on {{/if}}">
+            Something went wrong. Make sure you've entered the correct information into the fields!
+        </div>
+        <form class="profile_update" method="post">
+            <input type="hidden" name="_csrf" value="{{csrfToken}}">
+            <p>First name:</p>
+            <input type="text" name="first" data-lpignore=true value="{{first}}">
+            <p>Last name:</p>
+            <input type="text" name="last" data-lpignore=true value="{{last}}">
+            <p>Email Address:</p>
+            <input type="email" name="email" data-lpignore=true value="{{email}}">
+            <p>Password:</p>
+            <input type="password" name="password" data-lpignore=true placeholder="Password">
+            <p>Age:</p>
+            <input type="number" name="age" data-lpignore=true value="{{age}}" placeholder="Age">
+            <p>City:</p>
+            <input type="text" name="city" data-lpignore=true value="{{city}}" placeholder="City">
+            <p>Website:</p>
+            <input type="text" name="url" data-lpignore=true value="{{url}}" placeholder="Website">
+            <button type="submit" name="button">UPDATE</button>
+        </form>
+    </div>
+    <div class="img animated slideInRight">
+        <img src="https://media.mnn.com/assets/images/2015/04/baby-smartphone.jpg.653x0_q80_crop-smart.jpg" alt="Baby plays with phone">
+        <img src="https://images.baby-walz.de/v2/470x470_r1/wcs/images/BW/550/7/5507685_03/jpg/vtech-baby-smartphone-p1041906-3.jpg" alt="babay with phone">
+    </div>
+
+
+
+</div>

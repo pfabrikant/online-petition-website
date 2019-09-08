@@ -1,0 +1,18 @@
+<h3> Register to our petition website to learn more and add your signature!</h3>
+<div class="reg_img animated slideInLeft">
+    <img src="https://resources.stuff.co.nz/content/dam/images/1/q/p/e/d/o/image.related.StuffLandscapeSixteenByNine.710x400.1qozn5.png/1530973409190.jpg" alt="baby with phone">
+</div>
+<div class="warning {{#if warning}}on {{/if}}">
+    <p>We miss some information! Please fill in all of the input fields </p>
+</div>
+<form class="register" method="post">
+    <input type="text" name="firstName" data-lpignore=true placeholder="First Name">
+    <input type="text" name="lastName" data-lpignore=true placeholder="Last Name">
+    <input type="email" name="email" data-lpignore=true placeholder="Email address">
+    <input type="password" name="password" data-lpignore=true placeholder="Password">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button class= "animated pulse" type="submit" name="register">REGISTER</button>
+</form>
+<div class="login">
+    <a href="/login">Already got an account? Log in here</a>
+</div>

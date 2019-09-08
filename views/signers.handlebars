@@ -1,0 +1,15 @@
+<h3 class="underline">List of supporters of the cause</h3>
+<div class="signersList">
+
+
+<img src="https://inhabitat.com/inhabitots/wp-content/blogs.dir/24/files/2013/06/screen-time-dangers.jpg" alt="kids on screens">
+<div class="ol">
+    <ol>
+        {{#signers}}
+
+    <li> {{#if url}} <a href="{{url}}">   {{first}}   {{last}} </a> {{else}}  {{first}}   {{last}} {{/if}} {{#if age}}, {{age}} {{/if}}  {{#if city }}, <a href="/signers/{{city}}"> {{city}} </a> {{/if}} </li>
+    {{/signers}}
+    </ol>
+</div>
+
+</div>

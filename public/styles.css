@@ -1,0 +1,284 @@
+html {
+    position: relative;
+}
+body {
+    background-image: url('http://hellolivingroom.com/wp-content/uploads/2014/06/PP19112313-Light-wood-texture-macro-photo.jpg');
+    background-size: 100vw 100vh;
+    position: relative;
+
+}
+
+/* #opacity {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 200;
+    position: absolute;
+} */
+
+h1, h2, footer {
+    font-family: 'DM Serif Display', serif;
+    color: #475B5A;
+    text-align: center;
+}
+h1, h2 {
+    margin: 0;
+
+}
+
+h3 {
+    color: #4D4A6D;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+h4 {
+    margin: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+img {
+    height: 200px;
+    width:300px;
+    float: right;
+}
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4D4A6D;
+    font-size: 18px;
+}
+
+#welcome {
+    height: 200px;
+    width:300px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 42px;
+}
+#signature {
+    float: none;
+    border: #475B5A 1px solid;
+    margin-right: 25px;
+}
+#sign {
+    margin-right: 50px;
+    margin-top: 40px;
+    font-family: 'DM Serif Display', serif;
+    color: #475B5A;
+}
+
+.nameInput {
+    display: flex;
+    justify-content: center;
+}
+/* .signatureField {
+    display: flex;
+    justify-content: center;
+} */
+input {
+    margin: -10px 10px -10px 10px;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+form {
+    text-align: center;
+}
+
+#canvas {
+    border: #475B5A 1px solid;
+    margin-bottom: 20px;
+}
+#invisible {
+    visibility: hidden;
+}
+.warning {
+display: none;
+}
+.warning.on {
+    display: block;
+}
+
+button {
+    margin-top: 10px;
+    color: white;
+    font-size: 1.3em;
+    width: 120px;
+    height: 35px;
+    background: #475B5A;
+    border: #BBBBBF 2px solid;
+    border-radius: 5px;
+}
+footer{
+    margin-top: 30px;
+}
+
+.ol {
+
+    width: 50vw;
+    border: #475B5A 1px solid;
+
+}
+
+.signersList {
+    display: flex;
+    justify-content: space-around;
+}
+.showSignature {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.underline {
+    text-decoration: underline;
+}
+.alignCenter {
+    text-align: center;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header a {
+    visibility: hidden;
+}
+.header a.on {
+    visibility: visible;
+}
+
+
+.profile_update input {
+
+    width: 150px;
+    margin-bottom: 5px;
+
+}
+
+
+.update {
+display: flex;
+justify-content: space-around;
+}
+
+.update img {
+    margin-top: 30px;
+}
+.update button {
+    margin-top: 20px;
+    display: block;
+    margin-left:40%
+}
+.unsign button {
+
+    text-decoration: underline;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 250px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4D4A6D;
+    font-size: 18px;
+
+}
+
+#logout {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4D4A6D;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 7px;
+    margin-right: 15px;
+    /* background-color: rgba(212,210,213,0.5); */
+
+}
+.editlinks a {
+    color: #4D4A6D;
+
+}
+.warning {
+    border: red 2px solid;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 3px;
+    color: red;
+    width: 60%;
+    margin-left:20%;
+    margin-bottom: 5px;
+}
+.img {
+    animation-duration: 3s;
+    animation-delay: 1s;
+
+}
+.img img {
+    object-fit: contain;
+    margin-right: 40%;
+
+}
+.ol ol li {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4D4A6D;
+    font-size: 18px;
+
+}
+.ol ol li a {
+    color: #4D4A6D;
+}
+
+footer {
+font-size: 0.8rem;
+margin-top: 50px;
+margin-bottom: 0;
+}
+.register {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.login {
+    text-align: center;
+}
+.reg_img{
+    text-align: center;
+    animation-duration: 4.5s;
+
+}
+.reg_img img {
+    float: none;
+    object-fit: contain;
+
+
+}
+form.login {
+    margin-bottom: 20px;
+
+}
+.center h3 {
+    margin-left: 15px;
+    font-size: 1.3em;
+    text-align: left;
+    margin-bottom: -11px;
+    margin-top: 20px
+}
+#h2 {
+    margin-top: 35px;
+
+}
+.header h1 {
+    animation-duration: 3s;
+
+}
+.pulse {
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: 3;
+}
+.reg_img.pulse {
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+}

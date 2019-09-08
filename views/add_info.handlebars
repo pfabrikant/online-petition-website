@@ -1,0 +1,11 @@
+<h3> Hello {{name}}! Please tell us a bit more about yourself (optional)</h3>
+<div class="reg_img animated pulse">
+<img src="https://www.baby-und-familie.de/multimedia/180/67/152/120074125329.jpg" alt="baby with phone">
+</div>
+<form class="moreInfo" method="post">
+    <input type="number" name="age" placeholder="Age">
+    <input type="text" name="city" placeholder="City">
+    <input type="text" name="website" placeholder="Website">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button type="submit" name="button"> Continue </button>
+</form>

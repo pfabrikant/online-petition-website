@@ -1,0 +1,30 @@
+
+  <div class="center">
+       <img id="welcome" src="https://www.theawl.com/wp-content/uploads/2015/11/0COtbB_ADFSOq-etN.jpg" alt="baby uses smartphone">
+       <h3>Hello, {{name}}!</h3>
+       <div class="warning {{#if warning}} on {{/if}}">
+           <p>Something went wrong! Did you forget to sign your name inside the frame?</p>
+       </div>
+
+       <h4>We are all surrounded by a multitude of screens and devices that offer exciting interactivity.
+        That's a good thing! Digital technology has introduced endless improvements into our lives.
+         But, as every new technological development, it also holds dangerous aspects to it that we have to address.</h4>
+         <h4>As adults, we often struggle to limit our 'screen time'. Children are even more sensitive to the addictive
+         nature of digital interfaces. They watch us and follow our less than perfect example.</h4>
+  </div>
+  <h4>This petition aims to increase awareness to the importance of regulating our children's exposure to screens.
+       By signing it, you amplify our call to all parents and professionals in the educational sector to take
+   active steps to ensure that every kid will have a screen free time, where she or he could either play with others,
+read a book or just get bored.</h4>
+
+
+<h2 class="animated pulse" id="h2">Sign the petition and join our digital-analougue balance revolution today!</h2>
+<form class="sign" method="post">
+    <input type="hidden" name="_csrf"  value="{{csrfToken}}">
+
+    <input id="invisible" value="" type="text" name="signatureUrl"  >
+    <div class="signatureField">
+        <canvas id="canvas" width="400" height="200"></canvas>
+    </div>
+    <button class="animated pulse" type="submit" name="button">Submit</button>
+</form>

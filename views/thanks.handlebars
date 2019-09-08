@@ -1,0 +1,18 @@
+<h3>Thanks for signing the petition and supporting our cause, {{name}}!<br>Now get off the screen and go play with the kids!</h3>
+<div class="warning {{#if update}} on {{/if}}">
+    Your profile was successfully updated!
+</div>
+<div class="showSignature">
+    <h4 id="sign">Your signature: </h4>
+    <img id="signature" src="{{PicUrl}}" alt="users signature">
+    <img src="https://www.experienceoxfordshire.org/wp-content/uploads/2017/04/stonor-adventure-playground2016_0004.jpg" alt="A child plays">
+</div>
+<div class="editlinks alignCenter">
+    <a href="/signers"> See the {{numOfRows}} supporters of this petition!</a><br><br>
+    <a href="/profile_update"> Update your Profile</a>
+    <form class="unsign" method="post">
+        <input type="hidden" name="unsign" value="">
+        <input type="hidden" name="_csrf" value="{{csrfToken}}">
+        <button type="submit" name="button"> Delete your Signature</button>
+    </form>
+</div>
